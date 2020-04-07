@@ -2,7 +2,9 @@
 
 var gulp = require('gulp');
 var concatCss = require('gulp-concat-css');
+var concat = require('gulp-concat');
 var cleanCSS = require('gulp-clean-css');
+var stripCssComments = require('gulp-strip-css-comments');
 var exec = require('gulp-exec');
 var exec_ch = require('child_process').exec;
 
@@ -38,7 +40,8 @@ gulp.task('userContent_no_addons', function() {
 /* Add everything to userContent */
 gulp.task('userContent', gulp.parallel('userContent_no_addons', function() {
   return gulp.src(['css/common-files/*.css', 'css/userContent-files/*.css', 'css/userContent-files/*/*.css'])
-    .pipe(concatCss('userContent.css'))
+    .pipe(stripCssComments())
+    .pipe(concat('userContent.css'))
     .pipe(gulp.dest('.'));
 }));
 
