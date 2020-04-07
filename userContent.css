@@ -2559,6 +2559,12 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
   #dashboard-nav-widgets span {
     color: var(--tone-4)!important
   }
+  div#cloudWidget {
+    background: #38383d!important
+  }
+  span#cloudInfo {
+    color: #bbbbbb!important
+  }
   a.info {
     color: var(--tone-4)!important;
     opacity: .5
