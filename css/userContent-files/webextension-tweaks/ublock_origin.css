@@ -5,7 +5,7 @@
     background-color: var(--in-content-page-background)!important;
     background-image: none!important;
     border-color: var(--in-content-box-border-color)!important;
-    color: var(--in-content-text-color)!important/*! opacity: 1!important/**/
+    color: var(--in-content-text-color)!important
   }
   button#bye,
   button#proceedPermanent,
@@ -92,7 +92,8 @@
     background-color: var(--tone-6)!important
   }
   #firewallContainer > div > span {
-    color: var(--tone-4)!important;
+    background-color: #808080!important;
+    color: var(--tone-2)!important;
     border-color: var(--tone-5)!important
   }
   #netFilteringDialog .dialog > div.containers > div.dynamic tr.entry > td > div.action.own.block,
@@ -296,7 +297,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
   /*! COLORBLIND MODE END */
 
 }
-@-moz-document url-prefix("moz-extension://uBlock0@raymondhill.net/logger-ui") {
+@-moz-document url-prefix("moz-extension://af6375d3-382a-4048-aed7-90297dd82e6f/logger-ui") {
   .fa-icon > svg,
   .ubo-icon > svg {
     fill: var(--in-content-page-color)!important
@@ -515,5 +516,66 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
   body.preview #preview {
     background-color: var(--theme-highlight-blue)!important;
     color: #000!important
+  }
+}
+/*! Alters the webextension uBO-Scope
+  IMPORTANT: change the Internal UUID */
+@-moz-document url-prefix("moz-extension://uBO-Scope@raymondhill.net/") {
+  #heatmaps .togglerBar,
+  body,
+  body.theoretical #heatmaps .heatmap.theoretical {
+    background: var(--tone-6)!important
+  }
+  #heatmaps {
+    background-color: var(--in-content-box-border-color)!important
+  }
+  #domain3rdDetails {
+    border-color: var(--in-content-box-border-color)!important;
+    background-color: var(--in-content-page-background)!important
+  }
+  #topPane {
+    background-color: var(--tone-6)!important;
+    color: var(--tone-4)!important
+  }
+  #heatmaps .heatmap {
+    border: none;
+    background: var(--tone-6)!important
+  }
+  #heatmaps.list .hmcell {
+    background-color: var(--tone-6)!important;
+    color: var(--tone-4)!important
+  }
+  #domain3rdDetails #authority {
+    background-color: var(--tone-8)!important;
+    position: relative
+  }
+  #scores .scores .score.actual {
+    color: #fff!important
+  }
+  #scores .scores .score.theoretical,
+  body.theoretical #scores .scores .score.actual {
+    color: var(--tone-7)!important
+  }
+  body.theoretical #scores .scores .score.theoretical {
+    color: var(--tone-4)!important
+  }
+}
+@-moz-document url-prefix("moz-extension://uBO-Scope@raymondhill.net/options.html") {
+  body,
+  html {
+    background-color: var(--in-content-page-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  * {
+    border-color: var(--in-content-box-border-color)!important
+  }
+}
+/*! Alters the webextension UltraWide Video 21:9
+  IMPORTANT: change the Internal UUID */
+@-moz-document url-prefix("moz-extension://{75afe46a-7a50-4c6b-b866-c43a1075b071}/html/popup.html") {
+  html {
+    background: var(--in-content-box-background)!important;
+    color: var(--in-content-page-color)!important;
+    border: 3px solid!important
   }
 }
