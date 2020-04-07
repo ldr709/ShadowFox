@@ -40,7 +40,6 @@ gulp.task('userContent_no_addons', function() {
 /* Add everything to userContent */
 gulp.task('userContent', gulp.parallel('userContent_no_addons', function() {
   return gulp.src(['css/common-files/*.css', 'css/userContent-files/*.css', 'css/userContent-files/*/*.css'])
-    .pipe(stripCssComments())
     .pipe(concat('userContent.css'))
     .pipe(gulp.dest('.'));
 }));
