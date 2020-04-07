@@ -2533,7 +2533,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
   #panes,
   body,
   body[dir=ltr] #panes > div {
-    background: var(--tone-7)!important;
+    background: #38383d!important;
     color: #bbbbbb!important
   }
   #diff {
