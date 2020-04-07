@@ -38,7 +38,7 @@
     background: var(--tone-7)!important;
     color: #bbbbbb!important
   }
-  body.root {
+  div.root {
     background-color: #38383d!important;
   }
   #diff {
