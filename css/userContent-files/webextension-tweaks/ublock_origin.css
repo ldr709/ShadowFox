@@ -35,8 +35,11 @@
   #panes,
   body,
   body[dir=ltr] #panes > div {
-    background: #38383d!important;
+    background: var(--tone-7)!important;
     color: #bbbbbb!important
+  }
+  body.root {
+    background-color: #38383d!important;
   }
   #diff {
     border-color: var(--tone-5)!important
