@@ -1,12 +1,12 @@
 :root {
   --panel-separator-color: var(--in-content-border-color)!important
 }
-#urlbar[focused=true],
+/* #urlbar[focused=true],
 .searchbar-textbox[focused=true] {
   border: 1px solid!important;
   box-shadow: 0 1px 4px var(--in-content-border-focus)!important;
   border-color: var(--in-content-border-focus)!important
-}
+} */
 #PopupAutoCompleteRichResult .autocomplete-richlistbox,
 .searchbar-treebody::-moz-tree-row {
   background-color: var(--in-content-box-background)!important
