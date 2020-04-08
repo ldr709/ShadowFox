@@ -1581,6 +1581,7 @@ html#feedHandler .enclosures {
     color: var(--in-content-selected-text)!important
   }
 }
+
 /*! Alters the webextension Cookie AutoDelete
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://CookieAutoDelete@kennydo.com/") {
@@ -1630,6 +1631,7 @@ html#feedHandler .enclosures {
     border-color: var(--tone-4)!important
   }
 }
+
 /*! Alters the webextension Dark Mode
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{174b2d58-b983-4501-ab4b-07e71203cb43}/") {
@@ -1643,6 +1645,7 @@ html#feedHandler .enclosures {
     background-color: var(--in-content-box-border-color)!important
   }
 }
+
 /*! Alters the webextension Downloads sidebar
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{bbb81fb3-49c1-4a42-bcc9-94bc93e19fb8}/") {
@@ -1665,6 +1668,7 @@ html#feedHandler .enclosures {
     background: var(--in-content-box-background-hover)!important
   }
 }
+
 /*! Alters the webextension Dustman
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://jid1-i37bkuPx3kABMw@jetpack/panel/") {
@@ -1701,6 +1705,7 @@ html#feedHandler .enclosures {
     color: var(--in-content-page-color)!important
   }
 }
+
 /*! Pop Up Background Fixes */
 @-moz-document url-prefix("moz-extension://{7fc8ef53-24ec-4205-87a4-1e745953bb0d}/popup.html"),
 url-prefix("moz-extension://https-everywhere@eff.org/pages/popup"),
@@ -1992,6 +1997,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=active
 toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabled] {
   filter: invert(100%) brightness(250%)
 }
+
 @-moz-document url-prefix("moz-extension://{e4a8a97b-f2ed-450b-b12d-ee082ba24781}/") {
   body,
   html {
@@ -2020,6 +2026,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background: 0 0!important
   }
 }
+
 /*! Alters the webextension Momentum
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://momentum@momentumdash.com/dashboard.html") {
@@ -2027,6 +2034,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background-color: var(--tone-8)!important
   }
 }
+
 /*! Alters the webextension Multi-Account Containers
   IMPORTANT: change the Internal UUID in BOTH locations */
 @-moz-document url-prefix("moz-extension://@testpilot-containers/") {
@@ -2155,6 +2163,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background-color: var(--tone-6)!important
   }
 }
+
 /*! Alters the webextension NoScript
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{73a6fe31-595d-460b-a920-fcc0f8843232}/") {
@@ -2200,6 +2209,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     border: none!important
   }
 }
+
 @-moz-document url-prefix("moz-extension://extension@one-tab.com") {
   .clickable span {
     color: var(--in-content-link-color)!important
@@ -2209,6 +2219,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background-color: var(--in-content-box-background)!important
   }
 }
+
 .pkt_ext_containersaved .pkt_ext_tag_input_wrapper input::placeholder,
 .pkt_ext_containersaved h2,
 .token-input-dropdown-tag ul li {
@@ -2232,6 +2243,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
   background-color: var(--in-content-table-border-dark-color)!important;
   color: var(--in-content-page-color)!important
 }
+
 @-moz-document url-prefix("moz-extension://{b43b974b-1d3a-4232-b226-eaa2ac6ebb69}/") {
   .box-min input[type=checkbox]:checked ~ i {
     background: var(--in-content-link-color)!important;
@@ -2251,6 +2263,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     color: var(--in-content-page-color)!important
   }
 }
+
 /*! Alters the webextension Request Control
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{1b1e6108-2d88-4f0f-a338-01f9dbcccd6f}/") {
@@ -2324,6 +2337,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     filter: invert(65%)!important
   }
 }
+
 /*! Alters the webextension Tree Style Tab
   IMPORTANT: change the Internal UUID in BOTH locations */
 @-moz-document url-prefix("moz-extension://treestyletab@piro.sakura.ne.jp/resources/group-tab.html") {
@@ -2430,6 +2444,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background: var(--in-content-page-background)!important
   }
 }
+
 /*! Alters the webextension Tridactyl
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://tridactyl.vim@cmcaine.co.uk/") {
@@ -2480,6 +2495,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     border-color: var(--in-content-box-border-color)!important
   }
 }
+
 /*! Alters the webextension uBlock Origin
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://uBlock0@raymondhill.net/") {
@@ -2518,10 +2534,10 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
   body,
   body[dir=ltr] #panes > div {
     background: var(--tone-7)!important;
-    color: #bbb!important
+    color: #bbbbbb!important
   }
   div.root {
-    background-color: #38383d!important
+    background-color: #38383d!important;
   }
   #diff {
     border-color: var(--tone-5)!important
@@ -2547,7 +2563,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background: #38383d!important
   }
   span#cloudInfo {
-    color: #bbb!important
+    color: #bbbbbb!important
   }
   a.info {
     color: var(--tone-4)!important;
@@ -2586,7 +2602,7 @@ toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=disabl
     background-color: var(--tone-6)!important
   }
   #firewallContainer > div > span {
-    background-color: grey!important;
+    background-color: #808080!important;
     color: var(--tone-2)!important;
     border-color: var(--tone-5)!important
   }
@@ -2843,6 +2859,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
     border-color: var(--in-content-box-border-color)!important
   }
 }
+
 /*! Alters the webextension UltraWide Video 21:9
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{75afe46a-7a50-4c6b-b866-c43a1075b071}/html/popup.html") {
@@ -2852,6 +2869,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
     border: 3px solid!important
   }
 }
+
 /*! Alters the webextension uMatrix
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://uMatrix@raymondhill.net/") {
@@ -3191,6 +3209,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
     fill: var(--in-content-page-color)!important
   }
 }
+
 /*! Alters the webextension Vim Vixen
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://vim-vixen@i-beam.org/") {
@@ -3237,6 +3256,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
     background: var(--accent-2)
   }
 }
+
 /*! Alters the webextension Violentmonkey
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{aecec67f-0d10-4fa7-b7c7-609a2db280cf}/") {
@@ -3355,6 +3375,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
     background: var(--in-content-box-background)!important
   }
 }
+
 /*! Alters the webextension YouTube Video And Audio Downloader (WebEx)
   IMPORTANT: change the Internal UUID */
 @-moz-document url-prefix("moz-extension://{f73df109-8fb4-453e-8373-f59e61ca4da3}/") {
