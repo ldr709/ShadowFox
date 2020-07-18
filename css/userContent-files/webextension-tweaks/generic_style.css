@@ -142,7 +142,7 @@ url-prefix("moz-extension://generic_styling_5") {
   }
 }
 /*! Code Mirror */
-@-moz-document url-prefix("moz-extension://{aecec67f-0d10-4fa7-b7c7-609a2db280cf}/"),
+/* @-moz-document url-prefix("moz-extension://{aecec67f-0d10-4fa7-b7c7-609a2db280cf}/"),
 url-prefix("moz-extension://uBlock0@raymondhill.net/"),
 url-prefix("moz-extension://uMatrix@raymondhill.net/"),
 url-prefix("moz-extension://{e4a8a97b-f2ed-450b-b12d-ee082ba24781}/src/content/edit-user-script") {
@@ -280,7 +280,7 @@ url-prefix("moz-extension://{e4a8a97b-f2ed-450b-b12d-ee082ba24781}/src/content/e
   .cm-staticnetAllow {
     color: var(--theme-highlight-green)!important
   }
-}
+} */
 /*! Icons */
 /*! Redirector button for dark Firefox themes */
 toolbarbutton#toggle-button--redirectoreinaregilssoncom-redirector[image*=active] {
