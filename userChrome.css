@@ -101,6 +101,7 @@ regexp(".*\\.(p|P)(d|D)(f|F).*")  {
     --in-content-page-color: var(--tone-4)!important;
     --in-content-page-background: var(--tone-7)!important;
     --in-content-text-color: var(--tone-3)!important;
+    --in-content-deemphasized-text: var(--tone-4)!important;
     --in-content-selected-text: var(--tone-1)!important;
     --in-content-selected-text-background: #5675b9;
     --in-content-box-background: var(--tone-6)!important;
